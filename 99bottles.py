@@ -2,6 +2,10 @@
 # Author: John Kelly
 
 
+# Function used to print 99 Bottles song
+# Range 99 to -1 by subtracting 1 on each loop
+# Conditional statement that runs below indented code if condition met
+# The %s placeholder adds the string value of i to the print statement
 def bottleSong():
     for i in range(99, -1, -1):
         if i > 2:
@@ -18,4 +22,5 @@ def bottleSong():
             i = 99
             print('Go to the store and buy some more, %s bottles of beer on the wall.' % i)
 
-bottleSong()
+
+bottleSong()  # Calls the bottlesong function
